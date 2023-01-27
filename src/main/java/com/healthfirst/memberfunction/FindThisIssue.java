@@ -1,5 +1,8 @@
 package com.healthfirst.memberfunction;
 
+import java.security.KeyPairGenerator;
+import java.security.NoSuchAlgorithmException;
+
 public class FindThisIssue {
 
     public void keyPairGeneratorNoncompliant() throws NoSuchAlgorithmException {

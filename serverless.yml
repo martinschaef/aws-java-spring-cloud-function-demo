@@ -1,4 +1,4 @@
-service: sls-aws-java-spring-cloud-function-demo
+service: schaef-java8-spring-application-demo
 provider:
   name: aws
   runtime: java8
@@ -9,4 +9,4 @@ functions:
   members:
     handler: com.healthfirst.memberfunction.AwsLambdaHandler
     environment:
-      FUNCTION_NAME: members
+      FUNCTION_NAME: schaef-java8-spring-application
